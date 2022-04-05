@@ -1,18 +1,45 @@
-# Tags: latest, 6.2.6-debian-10-r173, 6.2.6, 6.2-debian-10, 6.2
+# Tags: latest, 6.2.6-debian-10-r177, 6.2.6, 6.2-debian-10, 6.2
 FROM bitnami/redis:latest
-FROM bitnami/redis:6.2.6-debian-10-r173
+FROM bitnami/redis:6.2.6-debian-10-r177
 FROM bitnami/redis:6.2.6
 FROM bitnami/redis:6.2-debian-10
 FROM bitnami/redis:6.2
 
-# Tags: _
-FROM bitnami/redis:_
-
-# Tags: 6.0.16-debian-10-r170, 6.0.16, 6.0-debian-10, 6.0
-FROM bitnami/redis:6.0.16-debian-10-r170
+# Tags: 6.0.16-debian-10-r175, 6.0.16, 6.0-debian-10, 6.0
+FROM bitnami/redis:6.0.16-debian-10-r175
 FROM bitnami/redis:6.0.16
 FROM bitnami/redis:6.0-debian-10
 FROM bitnami/redis:6.0
+
+# Tags: _
+FROM bitnami/redis:_
+
+# Tags: 6.0.16-debian-10-r174
+FROM bitnami/redis:6.0.16-debian-10-r174
+
+# Tags: 6.2.6-debian-10-r176
+FROM bitnami/redis:6.2.6-debian-10-r176
+
+# Tags: 6.0.16-debian-10-r173
+FROM bitnami/redis:6.0.16-debian-10-r173
+
+# Tags: 6.2.6-debian-10-r175
+FROM bitnami/redis:6.2.6-debian-10-r175
+
+# Tags: 6.0.16-debian-10-r172
+FROM bitnami/redis:6.0.16-debian-10-r172
+
+# Tags: 6.2.6-debian-10-r174
+FROM bitnami/redis:6.2.6-debian-10-r174
+
+# Tags: 6.0.16-debian-10-r171
+FROM bitnami/redis:6.0.16-debian-10-r171
+
+# Tags: 6.2.6-debian-10-r173
+FROM bitnami/redis:6.2.6-debian-10-r173
+
+# Tags: 6.0.16-debian-10-r170
+FROM bitnami/redis:6.0.16-debian-10-r170
 
 # Tags: 5.0.14-debian-10-r173, 5.0.14, 5.0-debian-10, 5.0
 FROM bitnami/redis:5.0.14-debian-10-r173
@@ -247,42 +274,3 @@ FROM bitnami/redis:6.0.16-debian-10-r145
 
 # Tags: 5.0.14-debian-10-r148
 FROM bitnami/redis:5.0.14-debian-10-r148
-
-# Tags: 6.2.6-debian-10-r146
-FROM bitnami/redis:6.2.6-debian-10-r146
-
-# Tags: 6.0.16-debian-10-r144
-FROM bitnami/redis:6.0.16-debian-10-r144
-
-# Tags: 5.0.14-debian-10-r147
-FROM bitnami/redis:5.0.14-debian-10-r147
-
-# Tags: 5.0.14-debian-10-r146
-FROM bitnami/redis:5.0.14-debian-10-r146
-
-# Tags: 6.0.16-debian-10-r143
-FROM bitnami/redis:6.0.16-debian-10-r143
-
-# Tags: 6.2.6-debian-10-r145
-FROM bitnami/redis:6.2.6-debian-10-r145
-
-# Tags: 5.0.14-debian-10-r145
-FROM bitnami/redis:5.0.14-debian-10-r145
-
-# Tags: 6.0.16-debian-10-r142
-FROM bitnami/redis:6.0.16-debian-10-r142
-
-# Tags: 6.2.6-debian-10-r144
-FROM bitnami/redis:6.2.6-debian-10-r144
-
-# Tags: 5.0.14-debian-10-r144
-FROM bitnami/redis:5.0.14-debian-10-r144
-
-# Tags: 6.0.16-debian-10-r141
-FROM bitnami/redis:6.0.16-debian-10-r141
-
-# Tags: 6.2.6-debian-10-r143
-FROM bitnami/redis:6.2.6-debian-10-r143
-
-# Tags: 5.0.14-debian-10-r143
-FROM bitnami/redis:5.0.14-debian-10-r143
