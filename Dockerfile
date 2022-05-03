@@ -1,9 +1,12 @@
-# Tags: latest, 6.2.7-debian-10-r4, 6.2.7, 6.2-debian-10, 6.2
+# Tags: latest, 6.2.7-debian-10-r5, 6.2.7, 6.2-debian-10, 6.2
 FROM bitnami/redis:latest
-FROM bitnami/redis:6.2.7-debian-10-r4
+FROM bitnami/redis:6.2.7-debian-10-r5
 FROM bitnami/redis:6.2.7
 FROM bitnami/redis:6.2-debian-10
 FROM bitnami/redis:6.2
+
+# Tags: _
+FROM bitnami/redis:_
 
 # Tags: 6.0.16-debian-10-r202, 6.0.16, 6.0-debian-10, 6.0
 FROM bitnami/redis:6.0.16-debian-10-r202
@@ -11,8 +14,8 @@ FROM bitnami/redis:6.0.16
 FROM bitnami/redis:6.0-debian-10
 FROM bitnami/redis:6.0
 
-# Tags: _
-FROM bitnami/redis:_
+# Tags: 6.2.7-debian-10-r4
+FROM bitnami/redis:6.2.7-debian-10-r4
 
 # Tags: 6.0.16-debian-10-r201
 FROM bitnami/redis:6.0.16-debian-10-r201
@@ -182,9 +185,3 @@ FROM bitnami/redis:6.0.16-debian-10-r174
 
 # Tags: 6.2.6-debian-10-r176
 FROM bitnami/redis:6.2.6-debian-10-r176
-
-# Tags: 6.0.16-debian-10-r173
-FROM bitnami/redis:6.0.16-debian-10-r173
-
-# Tags: 6.2.6-debian-10-r175
-FROM bitnami/redis:6.2.6-debian-10-r175
